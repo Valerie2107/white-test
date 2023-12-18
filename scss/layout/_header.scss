@@ -43,23 +43,31 @@
 
 
 // gros bloc View More
-.flex_view_more{
+.mobile_view_more{
     display: flex;
     flex-direction: column;
     width: 100%;
     margin: 5rem 0;
-  
 }
 .view_more{
+    display: flex;
+    flex-direction: row;
     margin: 1rem;
-    padding: 2rem;
+    padding: 1.5rem 2rem;
     background-color: #1a1a1a;
     &:hover{
         background-color: #ffb606;
     }
+    &:hover img{
+        filter: brightness(100);
+    }
+    .view_more--txt{
+        display: flex;
+        flex-direction: column;
+        padding: 0 2rem;
+    }
     img{
-        height: 100%;
-        width: 100%;
+        width: 15%;
     }
     h3{
         font-size: 20px;
