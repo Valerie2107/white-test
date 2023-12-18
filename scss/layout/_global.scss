@@ -1,0 +1,51 @@
+// mobile  --> 465px la nav devient sticky et plus grand distance du ttop 0
+//         --> 560 px appârition des btn du swipper
+            // --> 570px le logo double de taille, tjs burger
+//         --> 975px fin du mobile et du burger
+// tablette --> 3blocs dans l'img de fond
+//         --> 1265px apparition du numero de tel dans la nav
+// pc        --> 1365px le logo se distancie en padding et l'icone du tel double de taille
+
+// font-family: 'Open Sans', sans-serif; Light 300  Regular 400  Bold 700 
+// font-family: 'Roboto', sans-serif;    Light 300  Regular 400  Bold 700 
+
+// couleur du jaune: #ffb606
+// couleur du noir: #1a1a1a
+// couleur du gris:  color: #a5a5a5; avec font-weight: 500;
+
+html {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+}
+body {
+	width:100%;
+	flex-grow: 1;
+}
+
+
+
+body{
+    color: #1a1a1a;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+h2{
+    font-size: 72px;
+    font-weight: 400;
+    color: #fff;
+    strong{
+        background: #ffb606;
+    }
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}

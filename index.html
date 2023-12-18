@@ -5,18 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="scss/style.min.css">
     <script src="js/main.js" defer></script>
-    <title>Test  blanc - Course</title>
+    <title>Test  blanc - Course Home</title>
 </head>
 <body>
     
 <header>
-    <div class="burger">  <!-- attention, ici sticky ou fixed mais ne bouge pas du tout-->
-        <img src="img/logo.png" alt="logo">
+    <div class="burger">  <!-- attention, ici sticky ou fixed mais ne bouge pas du tout au début, différents paliers à voir dans _global.scss-->
         <div class="bread"></div>
         <div class="bread"></div>
         <div class="bread"></div>
     </div>
-    <nav>  <!-- en position sticky -- attention qu'elle remonte un peu dans le hedear, genre 1vh-->
+    <nav class="header_nav">  <!-- en position sticky -- attention qu'elle remonte un peu dans le hedear, genre 1vh-->
         <img src="img/logo.png" alt="logo">
         <a href="index.html">Home</a>
         <a href="index.html">About us</a>
@@ -33,7 +32,7 @@
         <div class="header_home">
             <div class="header_swipper">
                 <div class="btn slider">Prev</div>
-                <h1>Get your Education today!</h1>   <!-- effet de "survol" très visible en mobile -->
+                <h1>Get your <strong>Education</strong> today!</h1>   <!-- effet de "survol" très visible en mobile -->
                 <div class="btn slider">Next</div>
             </div>
             <div class="view_more">
