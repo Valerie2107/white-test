@@ -7,24 +7,26 @@ footer{
         color: #a5a5a5;
     }
 }
+.footer_wrapper{
+    padding: 0 1rem;
+}
 .links{
+    display: flex;
+    flex-direction: column;
     color: #fff;
     p{
         color: #a5a5a5;
     }
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
 }
-.footer_wrapper{
-    display: grid;
-    gap: 2rem;
-    padding: 0 1rem;
+menu{
+    img{
+        width: 5%;
+    }
 }
-
-.footer_second{
-    display: flex;
-}
-
-
-
 .links:nth-of-type(2){
     border-top: 1px solid #a5a5a5;
 }
@@ -33,11 +35,16 @@ footer{
 
 }
 
-
-
+// COPYRIGHT
 .copyright{
     color: #fff;
 }
 .copyright>a{
     color: #007bff;
+}
+.social{
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    margin: 0 auto;
 }
