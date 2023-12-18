@@ -1,0 +1,78 @@
+//  partie commune
+.home_header, .header_deskstop{
+    background: url(../../img/slider_background.jpg) center/cover;
+}
+
+.logo_course{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    span{
+        font-family: 'Open Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        color: #3a3a3a;
+        text-transform: uppercase;
+    }
+    img{
+        width: 25%;
+    }
+}
+
+// partie burger
+.home_header{
+    position: relative;
+    height: 100vh;
+    h1{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        white-space: nowrap;
+    }
+}
+.burger{
+    position: sticky;
+    top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+}
+.burger_menu{
+    height: 0.2rem;
+    width: 1.5rem;
+    background-color: #3a3a3a;
+    margin: 0.4rem 0;
+}
+
+// partie header_nav
+.header_deskstop{
+    display: none;
+}
+
+
+
+// gros bloc View More
+.flex_view_more{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 5rem 0;
+  
+}
+.view_more{
+    margin: 1rem;
+    padding: 2rem;
+    background-color: #1a1a1a;
+    h3{
+        font-size: 20px;
+        font-weight: 400;
+    }
+    span{
+        color: #fff;
+    }
+}

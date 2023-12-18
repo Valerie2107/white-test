@@ -32,13 +32,16 @@ body{
     font-weight: 400;
 }
 
-h2{
-    font-size: 72px;
+h1{
     font-weight: 400;
     color: #fff;
     strong{
         background: #ffb606;
+        padding: 0.3rem;
     }
+}
+h3{
+    color: #fff;
 }
 
 a{
