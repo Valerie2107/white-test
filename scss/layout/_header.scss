@@ -3,21 +3,7 @@
     background: url(../../img/slider_background.jpg) center/cover;
 }
 
-.logo_course{
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-    span{
-        font-family: 'Open Sans', sans-serif;
-        font-size: 16px;
-        font-weight: 700;
-        color: #3a3a3a;
-        text-transform: uppercase;
-    }
-    img{
-        width: 25%;
-    }
-}
+//logo course dans global
 
 // partie burger
 .home_header{

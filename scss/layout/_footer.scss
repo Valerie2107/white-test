@@ -1,3 +1,43 @@
+//logo course dans global
+
+
 footer{
     background-color: #1a1a1a;
+    a{
+        color: #a5a5a5;
+    }
+}
+.links{
+    color: #fff;
+    p{
+        color: #a5a5a5;
+    }
+}
+.footer_wrapper{
+    display: grid;
+    gap: 2rem;
+    padding: 0 1rem;
+}
+
+.footer_second{
+    display: flex;
+}
+
+
+
+.links:nth-of-type(2){
+    border-top: 1px solid #a5a5a5;
+}
+.links:nth-of-type(3){
+    border-bottom: 1px solid #a5a5a5;
+
+}
+
+
+
+.copyright{
+    color: #fff;
+}
+.copyright>a{
+    color: #007bff;
 }
