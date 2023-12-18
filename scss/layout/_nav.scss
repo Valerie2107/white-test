@@ -1,13 +1,42 @@
+/* ---- pour toutes les nav ---- */
+.navigation{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ----  pour le header ----- */
 .header_nav{
     position: sticky;
     top: 1rem;
     display: flex;
-    flex-direction: row;
     font-family: "Open Sans",sans-serif;
     text-transform: uppercase;
     margin: 0 auto;
+    padding: 1rem;
     font-weight: 700;
     width: 50%;
     color: #3a3a3a;
     align-items: center;
+    justify-content: space-between;
+    a{
+        color: #3a3a3a;
+    }
+    .navigation{
+        padding-left: 3rem;
+    }
+}
+.header_nav--img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 700;
+    font-size: 30px;
+    span{
+        padding-left: 1rem;
+    }
+}
+.phone{
+    color: #fff;
+    background: #ffb606;
 }
