@@ -1,0 +1,26 @@
+.register{
+    padding: 0 1rem;
+    background-color: #ffb606;
+}
+.register_now{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 7rem 0;
+    color: #fff;
+    h4{
+        font-size: 20px;
+    }
+    span{
+        color: #1a1a1a;
+    }
+    p{
+        width: 80%;
+    }
+    .btn{
+        background-color: #1a1a1a;
+        padding: 0.3rem 5rem;
+        margin-top: 2rem;
+    }
+}

@@ -16,9 +16,7 @@ footer{
         margin: 4rem 0 2rem 0;
     }
     p{
-        font-size: 13px;
         color: #a5a5a5;
-        line-height: 2.5;
     }
         //attention que *logo course* se trouve aussi dans _global.scss
     .logo_course span{
@@ -27,18 +25,10 @@ footer{
     }
 }
 
-// .links:nth-of-type(2){
-//     border-top: 1px solid #a5a5a5;
-// }
-// .links:nth-of-type(3){
-//     border-bottom: 1px solid #a5a5a5;
-// }
 .links:nth-of-type(4){
     border-bottom: 1px solid #a5a5a5;
     padding-bottom: 5vh;
 }
-
-
 
 // COPYRIGHT
 .copyright{
