@@ -1,4 +1,4 @@
-// GRID
+/********* GRID Homepage et Courses ********/
 .grid{
     display: grid;
     padding: 0 1rem;
@@ -62,4 +62,13 @@
     font-size: 22px;
     color: #fff;
     background-color: #ffb606;
+}
+
+/***************GRID CONTACT ***********/
+.contact_grid{
+    display: grid;
+    padding: 0 1rem;
+    margin: 3rem 0 5rem 0;
+    gap: 5rem;
+
 }
