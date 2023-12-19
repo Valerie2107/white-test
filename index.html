@@ -11,7 +11,9 @@
 <body>
     
 <header>
-    <div class="home_header">  <!-- avec une belle image de fond -->
+
+    <!-- version mobile -->
+    <div class="home_header">
         <div class="burger">  
             <div class="logo_course">
                 <img src="img/logo.png" alt="logo">
@@ -25,6 +27,7 @@
         </div>
         <h1>Get your <strong>Education</strong> today!</h1> 
     </div>
+    
     <div class="mobile_view_more">
         <a href="#" class="view_more">
             <img src="img/earth-globe.svg" alt="earth-globe">
@@ -49,11 +52,9 @@
         </a>
     </div>
 
-
-
-
-    <div class="header_deskstop">
-        <nav class="header_nav">  <!-- en position sticky - attention qu'elle remonte un peu dans le header, genre 1vh-->
+    <!-- version fixe  -->
+    <div class="header_desktop">
+        <nav class="header_nav">  
             <div class="logo_course">
                 <img src="img/logo.png" alt="logo">
                 <span>Course</span>
@@ -77,21 +78,27 @@
                 <h1>Get your <strong>Education</strong> today!</h1>   <!-- effet de "survol" très visible en mobile -->
                 <div class="btn slider">Next</div>
             </div>
-            <div class="view_more">
-                <div class="view_more--possibilities">
+            <div class="desktop_view_more">
+                <div class="desktop_view_more--possibilities">
                     <img src="img/earth-globe.svg" alt="earth-globe">
-                    <h3>Online Courses</h3>
-                    <a href="#">View more</a>
+                    <div>
+                        <h3>Online Courses</h3>
+                        <a href="#">View more</a>
+                    </div>
                 </div>
-                <div class="view_more--possibilities">
+                <div class="desktop_view_more--possibilities">
                     <img src="img/books.svg" alt="books">
-                    <h3>Our Library</h3>
-                    <a href="#">View more</a>
+                    <div>
+                        <h3>Our Library</h3>
+                        <a href="#">View more</a>
+                    </div>
                 </div>
-                <div class="view_more--possibilities">
+                <div class="desktop_view_more--possibilities">
                     <img src="img/professor.svg" alt="professor">
-                    <h3>Our teachers</h3>
-                    <a href="#">View more</a>
+                    <div>
+                        <h3>Our teachers</h3>
+                        <a href="#">View more</a>
+                    </div>
                 </div>
             </div>
         </div>

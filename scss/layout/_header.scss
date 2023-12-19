@@ -1,12 +1,17 @@
-//  partie commune
+/******EN VERSION MOBILE********************************/
 
-.home_header, .header_deskstop{
+//  partie commune
+.home_header, .header_desktop{
     background: url(../../img/slider_background.jpg) center/cover;
 }
 
 //logo course dans global
 
 // partie burger
+.header_desktop{
+    display: none;
+}
+
 .home_header{
     // position: relative;
     height: 100vh;
@@ -44,15 +49,6 @@
     background: url(../../img/contact_background.jpg) center/cover;
 }
 
-
-
-// partie header_nav
-.header_deskstop{
-    display: none;
-}
-
-
-
 // gros bloc View More
 .mobile_view_more{
     display: flex;
@@ -60,6 +56,7 @@
     width: 100%;
     margin: 5rem 0;
 }
+
 .view_more{
     display: flex;
     flex-direction: row;
@@ -90,4 +87,79 @@
     display: flex;
     flex-direction: column;
     padding: 0 2rem;
+}
+
+
+/******EN VERSION desktop********************************/
+.header_nav{
+    width: 70%;
+    display: flex;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    .logo_course {
+        margin: 1.5rem;
+        img{
+            width: 50%;
+        }
+    }
+}
+.header_navigation{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-around;
+    width: 100%;
+    font-weight: bold;
+    font-size: 16px;
+    a{
+        color:#3a3a3a ;
+    }
+}
+.phone{
+    display: none;
+}
+
+
+
+
+
+.desktop_view_more{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 1rem;
+    padding: 1.5rem 2rem;
+}
+.desktop_view_more--possibilities{
+    display: flex;
+    background-color: #1a1a1a;
+    &:hover{
+        background-color: #ffb606;
+    }
+    &>div{
+        font-size: 18px;
+        padding: 3rem 1rem;
+        & a:hover{
+            color: #1a1a1a;
+        }
+    }
+    img{
+        margin-left: 1rem;
+        width: 25%;
+    }
+    &:hover img{
+        filter: brightness(100);
+    }
+}
+
+
+
+@media screen and (min-width: 980px){
+    .home_header, .mobile_view_more{
+        display: none;
+    }
+    .header_desktop{
+        display: block;
+    }
 }
