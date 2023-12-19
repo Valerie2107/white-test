@@ -1,8 +1,9 @@
-//logo course dans global
+
 
 
 footer{
     background-color: #1a1a1a;
+
     a{
         color: #a5a5a5;
     }
@@ -14,37 +15,49 @@ footer{
     display: flex;
     flex-direction: column;
     color: #fff;
+    &>div{
+        font-size: 18px;
+        margin: 4rem 0 2rem 0;
+    }
     p{
+        font-size: 13px;
         color: #a5a5a5;
+        line-height: 2.5;
     }
-    nav{
-        display: flex;
-        flex-direction: column;
-    }
-}
-menu{
-    img{
-        width: 5%;
+        //attention que *logo course* se trouve aussi dans _global.scss
+    .logo_course span{
+        color: #fff;
+        line-height: 2;
     }
 }
-.links:nth-of-type(2){
-    border-top: 1px solid #a5a5a5;
-}
-.links:nth-of-type(3){
-    border-bottom: 1px solid #a5a5a5;
 
+// .links:nth-of-type(2){
+//     border-top: 1px solid #a5a5a5;
+// }
+// .links:nth-of-type(3){
+//     border-bottom: 1px solid #a5a5a5;
+// }
+.links:nth-of-type(4){
+    border-bottom: 1px solid #a5a5a5;
+    padding-bottom: 5vh;
 }
+
+
 
 // COPYRIGHT
 .copyright{
-    color: #fff;
+    font-size: 13px;
+    padding-top: 3rem;
+    color: #a5a5a5;
+    word-spacing: 0.1rem;
 }
 .copyright>a{
     color: #007bff;
 }
 .social{
     display: flex;
-    width: 70%;
+    width: 60%;
     justify-content: space-evenly;
+    padding: 3rem 0;
     margin: 0 auto;
 }

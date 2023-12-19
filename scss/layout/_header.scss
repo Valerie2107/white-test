@@ -1,4 +1,5 @@
 //  partie commune
+
 .home_header, .header_deskstop{
     background: url(../../img/slider_background.jpg) center/cover;
 }
@@ -7,7 +8,7 @@
 
 // partie burger
 .home_header{
-    position: relative;
+    // position: relative;
     height: 100vh;
     h1{
         position: absolute;
@@ -17,23 +18,33 @@
         white-space: nowrap;
     }
 }
-.burger{
-    position: sticky;
-    top: 1rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #fff;
+
+.courses_header, .contact_header{
+    height: 50vh;
+    position: relative;
+    h2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        translate: -50% -50%;
+        white-space: nowrap;
+        font-size: 30px;
+        font-weight: 400;
+        color: #fff;
+        strong{
+            background: #ffb606;
+            padding: 0.6rem 1.8rem;
+        }
+    }
 }
-.burger_menu{
-    height: 0.2rem;
-    width: 1.5rem;
-    background-color: #3a3a3a;
-    margin: 0.4rem 0;
+.courses_header{
+    background: url(../../img/courses_background.jpg) center/cover;
 }
+.contact_header{
+    background: url(../../img/contact_background.jpg) center/cover;
+}
+
+
 
 // partie header_nav
 .header_deskstop{
@@ -58,16 +69,11 @@
     &:hover{
         background-color: #ffb606;
     }
-    &:hover img{
-        filter: brightness(100);
-    }
-    .view_more--txt{
-        display: flex;
-        flex-direction: column;
-        padding: 0 2rem;
-    }
     img{
         width: 15%;
+    }
+    &:hover img{
+        filter: brightness(100);
     }
     h3{
         font-size: 20px;
@@ -79,4 +85,9 @@
             color: #1a1a1a;
         }
     }
+}
+.view_more--txt{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
 }

@@ -1,0 +1,46 @@
+/**********BURGER MENU************/
+.burger{
+    position: fixed;
+    z-index: 5;
+    position: sticky;
+    top: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #fff;
+}
+.burger_menu{
+    height: 0.2rem;
+    width: 1.5rem;
+    background-color: #3a3a3a;
+    margin: 0.4rem 0;
+}
+
+
+
+/**********FOOTER************/
+
+
+.footer_nav{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    a:hover{
+        color: #ffb606;
+    }
+}
+
+menu{
+    li{
+        display: flex;
+        align-items: center;
+        margin: 1rem 0;
+    }
+    img{
+        width: 8%;
+        padding-right: 1rem;
+    }
+}
