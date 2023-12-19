@@ -10,71 +10,102 @@
 </head>
 <body>
     
-<header>
-    <div class="contact_header">  <!-- avec une belle image de fond -->
-        <div class="burger">  
-            <div class="logo_course">
-                <img src="img/logo.png" alt="logo">
-                <span>Course</span>
+    <header>
+
+        <!-- version mobile -->
+        <div class="home_header">
+            <div class="burger">  
+                <div class="logo_course">
+                    <img src="img/logo.png" alt="logo">
+                    <span>Course</span>
+                </div>
+                <a href="#">
+                    <div class="burger_menu"></div>
+                    <div class="burger_menu"></div>
+                    <div class="burger_menu"></div>
+                </a>
             </div>
-            <a href="#">
-                <div class="burger_menu"></div>
-                <div class="burger_menu"></div>
-                <div class="burger_menu"></div>
+            <h1>Get your <strong>Education</strong> today!</h1> 
+        </div>
+        
+        <div class="mobile_view_more">
+            <a href="#" class="view_more">
+                <img src="img/earth-globe.svg" alt="earth-globe">
+                <div class="view_more--txt">
+                    <h3>Online Courses</h3>
+                    <span>View more</span>
+                </div>
+            </a>
+            <a href="#" class="view_more">
+                <img src="img/books.svg" alt="books">
+                <div class="view_more--txt">
+                    <h3>Our Library</h3>
+                    <span>View more</span>
+                </div>
+            </a>
+            <a href="#" class="view_more">
+                <img src="img/professor.svg" alt="professor">
+                <div class="view_more--txt">
+                    <h3>Our teachers</h3>
+                    <span>View more</span>
+                </div>
             </a>
         </div>
-        <h2><strong>Contact</strong></h2> 
-    </div>
     
-
-
-    <div class="header_deskstop">
-        <nav class="header_nav">  <!-- en position sticky - attention qu'elle remonte un peu dans le header, genre 1vh-->
-            <div class="logo_course">
-                <img src="img/logo.png" alt="logo">
-                <span>Course</span>
-            </div>
-            <div class="header_navigation">
-                <a href="index.html">Home</a>
-                <a href="#">About us</a>
-                <a href="courses.html">Courses</a>
-                <a href="#">Elements</a>
-                <a href="#">News</a>
-                <a href="contact.html">Contact</a>
-                <div class="phone">
-                    <i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i>
-                    <a href="tel:+43456677882457">+43 4566 7788 2457</a>
+        <!-- version fixe  -->
+        <div class="header_desktop">
+            <nav class="header_nav">  
+                <div class="logo_course">
+                    <img src="img/logo.png" alt="logo">
+                    <span>Course</span>
                 </div>
-            </div>
-        </nav>
-        <div class="header_home">
-            <div class="header_swipper">
-                <div class="btn slider">Prev</div>
-                <h1>Get your <strong>Education</strong> today!</h1>   <!-- effet de "survol" très visible en mobile -->
-                <div class="btn slider">Next</div>
-            </div>
-            <div class="view_more">
-                <div class="view_more--possibilities">
-                    <img src="img/earth-globe.svg" alt="earth-globe">
-                    <h3>Online Courses</h3>
-                    <a href="#">View more</a>
+                <div class="header_navigation">
+                    <a href="index.html">Home</a>
+                    <a href="#">About us</a>
+                    <a href="courses.html">Courses</a>
+                    <a href="#">Elements</a>
+                    <a href="#">News</a>
+                    <a href="contact.html">Contact</a>
+                    <div class="phone">
+                        <i class="fa-solid fa-phone-volume" style="color: #ffffff;"></i>
+                        <a href="tel:+43456677882457">+43 4566 7788 2457</a>
+                    </div>
                 </div>
-                <div class="view_more--possibilities">
-                    <img src="img/books.svg" alt="books">
-                    <h3>Our Library</h3>
-                    <a href="#">View more</a>
+            </nav>
+            <div class="header_home">
+                <div class="header_swipper">
+                    <div class="btn slider">Prev</div>
+                    <h1>Get your <strong>Education</strong> today!</h1>   <!-- effet de "survol" très visible en mobile -->
+                    <div class="btn slider">Next</div>
                 </div>
-                <div class="view_more--possibilities">
-                    <img src="img/professor.svg" alt="professor">
-                    <h3>Our teachers</h3>
-                    <a href="#">View more</a>
+                <div class="desktop_view_more">
+                    <div class="desktop_view_more--possibilities">
+                        <img src="img/earth-globe.svg" alt="earth-globe">
+                        <div>
+                            <h3>Online Courses</h3>
+                            <a href="#">View more</a>
+                        </div>
+                    </div>
+                    <div class="desktop_view_more--possibilities">
+                        <img src="img/books.svg" alt="books">
+                        <div>
+                            <h3>Our Library</h3>
+                            <a href="#">View more</a>
+                        </div>
+                    </div>
+                    <div class="desktop_view_more--possibilities">
+                        <img src="img/professor.svg" alt="professor">
+                        <div>
+                            <h3>Our teachers</h3>
+                            <a href="#">View more</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-
-
-</header> 
+    
+    
+    </header> 
 
 <main>
     <div class="contact_wrapper">
