@@ -28,15 +28,21 @@
 }
 
 /*******partie footer*****/
+hr{
+    height: 5px;
+    width: 13vw;
+    background: #ffb606;
+    // margin-top: 15rem;
+}
 .footer_first{
     width: 100%;
     text-align: center;
     padding-bottom: 5rem;
     border-bottom: 1px solid #a5a5a5;
     h3{
-        font-size: 34px;
+        font-size: 25px;
         font-weight: bold;
-        padding: 3rem 0;
+        padding: 1rem 0;
     }
 }
 .footer_first form{
